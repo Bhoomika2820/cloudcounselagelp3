@@ -13,7 +13,7 @@ while 1800, 1900, 2100, 2200, 2300 and 2500 are NOT leap years.
 
 
 #enter the year
-n=int(input())
+n=int(input("Enter The Year :"))
 #The year can be evenly divided by 4, is a leap year
 if n%4==0:
     if n%100==0:
