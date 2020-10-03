@@ -5,11 +5,13 @@ Read two integers from STDIN and print three lines where:
 second).
 ● The third line contains the product of the two numbers.
 """
-#   n is an integer list of two nos
-n=list(map(int,input.split()))
-#sum of two nos
-print(n[0]+n[1])
-#difference of two nos(first-second)
-print(n[0]-n[1])
-#product of two nos
-print(n[0]*n[1])
+a = int(input("Enter 1st no :"))
+b = int(input("Enter 1st no :"))
+
+print("sum :", a + b)
+if a > b:
+    print("diff :", a - b)
+else:
+    print("diff :", b - a)
+
+print("product :", a * b)
